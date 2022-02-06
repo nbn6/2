@@ -1,7 +1,5 @@
 [rewrite_local]
-
-#panda widget解锁会员
-^https:\/\/mobile-api\.adguard\.com\/api/1.0/ios_validate_receipt url script-response-body pandavip.js
+^https:\/\/mobile-api\.adguard\.com\/api/1.0/ios_validate_receipt url script-response-body https://raw.githubusercontent.com/nbn6/2/main/2.js
 [mitm]
 hostname = mobile-api.adguard.com
 
